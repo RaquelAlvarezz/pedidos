@@ -5,4 +5,3 @@ function comprobar_sesion(){
         header("Location: login.php?redirigido=true");
     }
 }
-?>

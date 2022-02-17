@@ -10,9 +10,10 @@ comprobar_sesion();
     <head>
         <meta charset= "UTF-8">
         <title>Carrito de la compra</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="./src/components/header.js"></script>
-    <script src="./src/components/footer.js"></script>
+        <link rel="stylesheet" href="./dist/style.1dc133ea.css">
+    
+    <script src="/components/header.js"></script>
+    <script src="/components/footer.js"></script>
     </head>
     
     <body>

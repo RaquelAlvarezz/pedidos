@@ -24,16 +24,14 @@ if($usu===FALSE){
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
     <script src="src/components/header.js"></script>
     <script src="src/components/footer.js"></script>
     <title>Formulario de login</title>
     
 </head>
-<header-component></header-component>
 <body>
-<h1>Inicia a sesión</h1>
-
 <?php if (isset($_GET["redirigido"])){
     echo "<p>Haga login para continuar</p>";
 } ?>
@@ -48,6 +46,5 @@ if($usu===FALSE){
     <input id="clave" name="clave" type="password">
     <input type="submit">
 </form>
-<footer-component></footer-component>
 </body>
 </html>

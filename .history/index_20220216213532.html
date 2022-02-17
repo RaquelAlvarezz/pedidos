@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="gl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+    <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
+  <script src="src/components/header.js"></script>
+  <script src="src/components/footer.js"></script>
+  </head>
+  <body>
+    <header-component></header-component>
+    <main>
+      <!-- Your page's content -->
+    <section class="container mb-5">
+      <p class="p-3 pb-0" id="theme-colors">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ipsa beatae blanditiis, aspernatur quasi dolorum itaque aperiam, sed repellendus maiores vitae provident fugit hic. Vitae harum hic nesciunt consectetur provident? </p>
+      <h4 class="p-3 pt-1">Páxina principal</h4>  
+      <div class="row">
+          <div class="col">
+            <div class="container">
+              <form class="row g-3 needs-validation" action="login.php" method="POST" novalidate>
+                <div class="col-md-4">
+                  <label for="validationCustom01" class="form-label">Nome</label>
+                  <input type="text" class="form-control" id="validationCustom01" name="nome" placeholder="Raquel" required>
+                  <div class="valid-feedback">
+                    Parece axeitado!
+                  </div>
+                </div>
+                
+                
+                <div class="col-12">
+                  <button class="btn btn-primary" type="submit">Enviar datos</button>
+                </div>
+              </form>
+          </div>
+      </div>
+      </div>
+    </section>
+    
+    <script src="./src/js/index.js"></script>
+    <script src="./src/js/validation.js" defer></script>
+  
+    <footer-component></footer-component>
+  </body>
+<html>

@@ -1,15 +1,16 @@
 {
-  "name": "pedidos",
+  "name": "pedidos-restaurante",
   "version": "1.0.0",
-  "description": "",
+  "description": "* Creación dunha aplicación de pedidos e control de stock para restaurantes seguindo o capítulo 4 do libro.",
   "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^3.4.1",
+    "node-sass": "^7.0.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "bootstrap": "^5.1.3"
-  }
+  "license": "ISC"
 }
