@@ -11,5 +11,12 @@ En primer lugar nos encontramos con la página principal en la que tendremos que
 ### Login
 Después accedemos a la página de login en la cual nos piden usuario y contraseña. El usuario es madrid1@empresa.com y la contraseña es 1234.
 ### Lista de Categorías
-Una vez 
-
+Una vez dentro, pasamos a la pantalla lista de categorías en la que aparece un listado de los tipos de productos de los que disponemos.
+### Bebidas con
+En esta pantalla tenemos un listado de las bebidas con alcohol disponibles y la opción de añadirlas al carrito.
+### Bebidas sin
+En esta pantalla tenemos un listado de las bebidas sin alcohol disponibles y la opción de añadirlas al carrito.
+### Comida
+En esta pantalla tenemos un listado de los platos e ingredientes disponibles y la opción de añadirlos al carrito.
+### Ver carrito
+En esta pantalla podemos visualizar los productos que hemos añadido a nuestro carrito. También tenemos la opción de eliminarlos así como realizar el pedido.
